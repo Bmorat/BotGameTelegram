@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Library</name>
+    </assembly>
+    <members>
+        <member name="F:Library.GlobalLibrary.ListaAtaquesJ1">
+            <summary> Agrego 2 listas nuevas a nuestro programa para poder agregar los ataques de cada jugador por separado
+             la idea de la nueva User History es que cuando el usuario nos pida las estadisticas podamos mostrarle 
+            </summary> el total de ataque realizados por el J1 y por el J2
+             <summary>
+             Representa la Lista de Ataques del Jugador 1
+             </summary>
+        </member>
+        <member name="F:Library.GlobalLibrary.ListaAtaquesJ2">
+            <summary>
+            Representa la Lista de Ataques del Jugador 2
+            </summary>
+        </member>
+        <member name="T:Library.GetStaticsHandler">
+            <summary>
+            Implementacion de un nuevo handler para interactuar con el bot
+            </summary>
+        </member>
+        <member name="T:Library.HelloHandler">
+            <summary>
+            Un "handler" del patrón Chain of Responsibility que implementa el comando "Hola", luego continua la cadena.
+            </summary>
+        </member>
+        <member name="M:Library.BotPrinter.PrintStatic(System.Collections.Generic.List{System.String})">
+            <summary>
+            por SRP agregamos el nuevo metodo de impresiones que vayan a ser para el bot en la clase bot printer
+            </summary>
+            <summary>
+            en este caso para procesar datos desde la lista de ataques de cada jugador
+            </summary>
+        </member>
+        <member name="T:Library.ConsolePrinter">
+            <summary>
+            Clase que imprime en la consola un tablero y naves.
+            </summary>
+        </member>
+        <member name="M:Library.ConsolePrinter.ImprimirTablero(System.Collections.Generic.List{System.Collections.Generic.List{System.String}})">
+            <summary>
+            Imprime el tablero en la consola.
+            </summary>
+        </member>
+        <member name="M:Library.ConsolePrinter.ImprimirMensaje(System.String)">
+            <summary>
+            Imprime mensajes en la consola.
+            </summary>
+        </member>
+    </members>
+</doc>
