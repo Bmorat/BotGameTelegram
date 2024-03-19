@@ -23,7 +23,7 @@ namespace Library
 
         public static void Main()
         {
-            bot = new TelegramBotClient("6503767401:AAHJDbuRQXWvsFZINsCk8ksfBUPdyHYmRbQ");
+            bot = new TelegramBotClient("TOKEN");
 
             firstHandler = new HelloHandler
             (new CreateOrJoinHandler
